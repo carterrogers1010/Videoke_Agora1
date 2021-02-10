@@ -1,24 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Videoke_Agora1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8P-U0-7Cs">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didTapHangUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPa-7o-dIU"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cMy-B0-Smm">
+                                <rect key="frame" x="0.0" y="64" width="414" height="369"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qq-Sg-bR3">
+                                <rect key="frame" x="0.0" y="463" width="414" height="379"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e8P-U0-7Cs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Bm-cl-d3K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cMy-B0-Smm" secondAttribute="trailing" id="9KD-v2-vZH"/>
+                            <constraint firstItem="0qq-Sg-bR3" firstAttribute="top" secondItem="e8P-U0-7Cs" secondAttribute="bottom" id="C48-Fg-OuO"/>
+                            <constraint firstItem="0qq-Sg-bR3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D7P-Js-Khv"/>
+                            <constraint firstItem="cMy-B0-Smm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dnd-a0-bma"/>
+                            <constraint firstItem="e8P-U0-7Cs" firstAttribute="top" secondItem="cMy-B0-Smm" secondAttribute="bottom" id="Kms-ai-rto"/>
+                            <constraint firstItem="e8P-U0-7Cs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LDf-SV-ko6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0qq-Sg-bR3" secondAttribute="bottom" constant="20" id="Otg-0Z-9PA"/>
+                            <constraint firstItem="0qq-Sg-bR3" firstAttribute="top" secondItem="e8P-U0-7Cs" secondAttribute="bottom" id="Q5U-jX-eV7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0qq-Sg-bR3" secondAttribute="trailing" id="VKZ-9f-DNE"/>
+                            <constraint firstItem="cMy-B0-Smm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="erf-EX-Vd9"/>
+                            <constraint firstItem="0qq-Sg-bR3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nYW-hx-K4t"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="localView" destination="0qq-Sg-bR3" id="p1k-s7-l3V"/>
+                        <outlet property="remoteView" destination="cMy-B0-Smm" id="pKG-21-r8U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="78.348214285714278"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

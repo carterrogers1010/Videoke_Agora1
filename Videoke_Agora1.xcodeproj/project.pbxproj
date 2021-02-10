@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0436D3E512E2B4079F32D089 /* Pods_Videoke_Agora1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10C17F8D3C058617EE83255 /* Pods_Videoke_Agora1Tests.framework */; };
 		5252821325D484F800E77737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252821225D484F800E77737 /* AppDelegate.swift */; };
 		5252821525D484F800E77737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252821425D484F800E77737 /* SceneDelegate.swift */; };
 		5252821725D484F800E77737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252821625D484F800E77737 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		5252821F25D484FD00E77737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5252821D25D484FD00E77737 /* LaunchScreen.storyboard */; };
 		5252822A25D484FD00E77737 /* Videoke_Agora1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252822925D484FD00E77737 /* Videoke_Agora1Tests.swift */; };
 		5252823525D484FD00E77737 /* Videoke_Agora1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252823425D484FD00E77737 /* Videoke_Agora1UITests.swift */; };
+		8211D63A86C2EF99423D6C8F /* Pods_Videoke_Agora1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47933E827484E0AF10745694 /* Pods_Videoke_Agora1.framework */; };
+		9F91E3941B0A317D915AA618 /* Pods_Videoke_Agora1_Videoke_Agora1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B26D5B7BEF610D75CDB3972 /* Pods_Videoke_Agora1_Videoke_Agora1UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FEB4AE32F4C503CCB6302F1 /* Pods-Videoke_Agora1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videoke_Agora1Tests.release.xcconfig"; path = "Target Support Files/Pods-Videoke_Agora1Tests/Pods-Videoke_Agora1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B85738D3CD11023806AE6F9 /* Pods-Videoke_Agora1-Videoke_Agora1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videoke_Agora1-Videoke_Agora1UITests.debug.xcconfig"; path = "Target Support Files/Pods-Videoke_Agora1-Videoke_Agora1UITests/Pods-Videoke_Agora1-Videoke_Agora1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47933E827484E0AF10745694 /* Pods_Videoke_Agora1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Videoke_Agora1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A413E790482FEC81787F7C /* Pods-Videoke_Agora1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videoke_Agora1.debug.xcconfig"; path = "Target Support Files/Pods-Videoke_Agora1/Pods-Videoke_Agora1.debug.xcconfig"; sourceTree = "<group>"; };
 		5252820F25D484F800E77737 /* Videoke_Agora1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Videoke_Agora1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5252821225D484F800E77737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5252821425D484F800E77737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		5252823025D484FD00E77737 /* Videoke_Agora1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Videoke_Agora1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5252823425D484FD00E77737 /* Videoke_Agora1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videoke_Agora1UITests.swift; sourceTree = "<group>"; };
 		5252823625D484FD00E77737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA8D397DB0342842F8C2112 /* Pods-Videoke_Agora1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videoke_Agora1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Videoke_Agora1Tests/Pods-Videoke_Agora1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B26D5B7BEF610D75CDB3972 /* Pods_Videoke_Agora1_Videoke_Agora1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Videoke_Agora1_Videoke_Agora1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1677CFD0B258D41D3A28D65 /* Pods-Videoke_Agora1-Videoke_Agora1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videoke_Agora1-Videoke_Agora1UITests.release.xcconfig"; path = "Target Support Files/Pods-Videoke_Agora1-Videoke_Agora1UITests/Pods-Videoke_Agora1-Videoke_Agora1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C10C17F8D3C058617EE83255 /* Pods_Videoke_Agora1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Videoke_Agora1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8C40AACBB6F98538B8890D /* Pods-Videoke_Agora1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videoke_Agora1.release.xcconfig"; path = "Target Support Files/Pods-Videoke_Agora1/Pods-Videoke_Agora1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8211D63A86C2EF99423D6C8F /* Pods_Videoke_Agora1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0436D3E512E2B4079F32D089 /* Pods_Videoke_Agora1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F91E3941B0A317D915AA618 /* Pods_Videoke_Agora1_Videoke_Agora1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A0F936ECDCFC51689C7A59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50A413E790482FEC81787F7C /* Pods-Videoke_Agora1.debug.xcconfig */,
+				CB8C40AACBB6F98538B8890D /* Pods-Videoke_Agora1.release.xcconfig */,
+				2B85738D3CD11023806AE6F9 /* Pods-Videoke_Agora1-Videoke_Agora1UITests.debug.xcconfig */,
+				A1677CFD0B258D41D3A28D65 /* Pods-Videoke_Agora1-Videoke_Agora1UITests.release.xcconfig */,
+				6AA8D397DB0342842F8C2112 /* Pods-Videoke_Agora1Tests.debug.xcconfig */,
+				1FEB4AE32F4C503CCB6302F1 /* Pods-Videoke_Agora1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34D66DBA2E662B1E7C210038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47933E827484E0AF10745694 /* Pods_Videoke_Agora1.framework */,
+				8B26D5B7BEF610D75CDB3972 /* Pods_Videoke_Agora1_Videoke_Agora1UITests.framework */,
+				C10C17F8D3C058617EE83255 /* Pods_Videoke_Agora1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5252820625D484F800E77737 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				5252822825D484FD00E77737 /* Videoke_Agora1Tests */,
 				5252823325D484FD00E77737 /* Videoke_Agora1UITests */,
 				5252821025D484F800E77737 /* Products */,
+				02A0F936ECDCFC51689C7A59 /* Pods */,
+				34D66DBA2E662B1E7C210038 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5252823925D484FD00E77737 /* Build configuration list for PBXNativeTarget "Videoke_Agora1" */;
 			buildPhases = (
+				CC6F7C9CF3F2912FA3B4ACCF /* [CP] Check Pods Manifest.lock */,
 				5252820B25D484F800E77737 /* Sources */,
 				5252820C25D484F800E77737 /* Frameworks */,
 				5252820D25D484F800E77737 /* Resources */,
+				6A1E2E5ABF2C650843B45BCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5252823C25D484FD00E77737 /* Build configuration list for PBXNativeTarget "Videoke_Agora1Tests" */;
 			buildPhases = (
+				6D467CF09DC822B6AF71E899 /* [CP] Check Pods Manifest.lock */,
 				5252822125D484FD00E77737 /* Sources */,
 				5252822225D484FD00E77737 /* Frameworks */,
 				5252822325D484FD00E77737 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5252823F25D484FD00E77737 /* Build configuration list for PBXNativeTarget "Videoke_Agora1UITests" */;
 			buildPhases = (
+				494DCFC871337943F05488B6 /* [CP] Check Pods Manifest.lock */,
 				5252822C25D484FD00E77737 /* Sources */,
 				5252822D25D484FD00E77737 /* Frameworks */,
 				5252822E25D484FD00E77737 /* Resources */,
+				2DB0D4FD33856EE88390B6C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DB0D4FD33856EE88390B6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Videoke_Agora1-Videoke_Agora1UITests/Pods-Videoke_Agora1-Videoke_Agora1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Videoke_Agora1-Videoke_Agora1UITests/Pods-Videoke_Agora1-Videoke_Agora1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Videoke_Agora1-Videoke_Agora1UITests/Pods-Videoke_Agora1-Videoke_Agora1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		494DCFC871337943F05488B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Videoke_Agora1-Videoke_Agora1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A1E2E5ABF2C650843B45BCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Videoke_Agora1/Pods-Videoke_Agora1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Videoke_Agora1/Pods-Videoke_Agora1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Videoke_Agora1/Pods-Videoke_Agora1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D467CF09DC822B6AF71E899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Videoke_Agora1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6F7C9CF3F2912FA3B4ACCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Videoke_Agora1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5252820B25D484F800E77737 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		5252823A25D484FD00E77737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A413E790482FEC81787F7C /* Pods-Videoke_Agora1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		5252823B25D484FD00E77737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8C40AACBB6F98538B8890D /* Pods-Videoke_Agora1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		5252823D25D484FD00E77737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA8D397DB0342842F8C2112 /* Pods-Videoke_Agora1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		5252823E25D484FD00E77737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEB4AE32F4C503CCB6302F1 /* Pods-Videoke_Agora1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		5252824025D484FD00E77737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B85738D3CD11023806AE6F9 /* Pods-Videoke_Agora1-Videoke_Agora1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		5252824125D484FD00E77737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1677CFD0B258D41D3A28D65 /* Pods-Videoke_Agora1-Videoke_Agora1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
